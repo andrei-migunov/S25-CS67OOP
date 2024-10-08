@@ -1,9 +1,3 @@
-/* T. Urness
- * CS 67
- * Introduction to Inheritance
- * Person class contains a name and age and the approproate accessor and mutator methods
- */
-
 public class Person { 
     private String name;
     private int age;

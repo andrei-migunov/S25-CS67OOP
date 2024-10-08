@@ -18,6 +18,7 @@ public class GroceryDriver
         shoppingList.add(peanutButter);
         shoppingList.add(bread);
 
+
         System.out.println(shoppingList);
 
         System.out.println("Total Cost: "+shoppingList.totalCost());
