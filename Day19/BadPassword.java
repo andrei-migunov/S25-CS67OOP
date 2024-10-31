@@ -29,5 +29,4 @@ public class BadPassword
 			throw new IncorrectPasswordException();
         }
 	}
-
 }
