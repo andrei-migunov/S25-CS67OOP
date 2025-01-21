@@ -8,7 +8,7 @@ public class Variables
     {
         int value;
 
-        value = 5;
+        value = 6;
         System.out.print("The value is ");
         System.out.println(value);
     }
