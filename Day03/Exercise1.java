@@ -12,9 +12,9 @@ public class Exercise1 {
 
         System.out.println("Please enter the total of the bill: ");
         bill = keyboard.nextDouble();
-        bill = bill*1.15; //15% tip
+        bill = bill*1.20; //20% tip
 
-        System.out.println("With a 15 percent tip, the total bill is " + bill);
+        System.out.println("With a 20 percent tip, the total bill is " + bill);
         amountPerPerson = bill / people;
         System.out.println("Each person owes $" + amountPerPerson);
         keyboard.close();
