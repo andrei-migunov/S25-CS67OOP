@@ -1,0 +1,4 @@
+Name: Bill, Age: 20, Major: CS
+Name: Amanda, Age: 23, Major: Math
+Name: Bill, Age: 20, Major: CS
+Name: Amanda, Age: 23, Major: Math

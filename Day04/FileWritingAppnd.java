@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class FileWriting {
+public class FileWritingAppnd {
     public static void main(String[] args) throws IOException {
 		FileWriter fw = new FileWriter("StudentData.txt",true);
 		PrintWriter outputFile = new PrintWriter(fw);
