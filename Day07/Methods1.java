@@ -6,4 +6,5 @@ public class Methods1 {
             System.out.println(i + " " + args[i]);
         }
     }
+
 }
