@@ -11,6 +11,7 @@ public class Date
         year = y;
     }
 
+    // Guarantees that if we try to print a Date object, it will look like ...
     public String toString()
     {
         return month+"/"+day+"/"+year;

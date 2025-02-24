@@ -14,5 +14,9 @@ public class RectangleDriver {
         Rectangle r3 = new Rectangle(5.5,12.0);
         System.out.println("A rectangle with " + r3.getLength() + " length and " + r3.getWidth() + 
          " width has area " + r3.getArea());
+
+        Rectangle r4 = new Rectangle(10,10);
+        System.out.println(r4.isSquare());
+        System.out.println(r3.isSquare());
     }
 }

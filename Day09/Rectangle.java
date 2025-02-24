@@ -15,6 +15,24 @@ public class Rectangle {
         width = w;
     }
 
+	//Returns true if the Rectangle is a square
+	// Originally conceived by Torsten
+	// Non-mutator 
+	public boolean isSquare(){
+		return (length == width);
+	}
+
+	//Square-ify the Rectangle based on the maximum of the length & width
+	// Mutator
+	public void makeSquareMax(){
+		length = width = Math.max(length,width);
+	}
+
+	//Square-ify the Rectangle based on the minimum of the length & width
+	public void makeSquareMin(){
+		length = width = Math.min(length,width);
+	}
+
 	public void setLength(double len) {
 		length = len;
 	}
