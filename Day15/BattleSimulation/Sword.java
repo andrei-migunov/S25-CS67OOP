@@ -3,7 +3,7 @@ public class Sword extends Weapon
     /**
      * Constructor 
      * 
-     * @param n the name of the axe
+     * @param n the name of the sword
      */
     public Sword(String n)
     {
