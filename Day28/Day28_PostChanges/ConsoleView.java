@@ -1,4 +1,4 @@
-public class View {
+public class ConsoleView {
     public void showSpellResult(String name, boolean success) {
         if (success) {
             System.out.println(name + " successfully casts the spell!");
@@ -14,9 +14,5 @@ public class View {
     public void showSpellDetails(Spell s) {
         System.out.println(
                 "Spell: " + s.getName() + " [Element: " + s.getElement() + ", Mana Cost: " + s.getManaCost() + "]");
-    }
-
-    public void showAffinity(String charname, String affinity) {
-        System.out.println("Current affinity for " + charname + " is "+affinity+".");
     }
 }

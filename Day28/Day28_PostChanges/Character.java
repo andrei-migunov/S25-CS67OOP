@@ -1,5 +1,3 @@
-import java.util.Random;
-
 public class Character {
     private String name;
     private int mana;
@@ -25,16 +23,6 @@ public class Character {
 
     public int getMana() {
         return mana;
-    }
-
-    public void swapAffinity() {
-        String[] affinities = {"Fire", "Ice", "Poison", "Lightning","Force"};
-        Random random = new Random();
-        this.elementAffinity = affinities[random.nextInt(affinities.length)];
-    }
-
-    public String getAffinity() {
-        return elementAffinity;
     }
 
     public String getName() {
